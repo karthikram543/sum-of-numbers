@@ -1,0 +1,56 @@
+public class javafirst {
+	
+ 
+ int num=56;
+ int cash=0;
+	public static void main(String[] args)
+	{
+	javafirst screen1 = new javafirst(); 
+
+	screen1.get_popcorn(); 
+	
+	
+	
+
+
+	}
+	void get_popcorn()
+	{
+		for(int i=0;i<=num;i++) {
+	
+	 cash =cash+ num%10; 
+	 num=num/10;
+	   
+		}
+		System.out.println(cash);
+
+	}
+	
+
+	
+
+
+	}
+
+
+
+		 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	 
+	 
+
+
+	 
+	 
+	 
+	 
+		
+		
+	 
+
